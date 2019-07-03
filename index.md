@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# Projects
 
-You can use the [editor on GitHub](https://github.com/alevine/alevine.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Search the Gungeon
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+https://github.com/alevine/gungeon_search
 
-### Markdown
+A simple and quick search tool for Enter the Gungeon guns and items. Info on items & guns scraped from [the wikia page](http://enterthegungeon.gamepedia.com) for Enter the Gungeon using Nokogiri. Phoenix server with a React frontend.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The landing page
 
-```markdown
-Syntax highlighted code block
+![GIF of progress](https://i.imgur.com/wUO5W0v.gif)
 
-# Header 1
-## Header 2
-### Header 3
+## Spotify Album Art Histogram
 
-- Bulleted
-- List
+https://github.com/alevine/spotify-art
 
-1. Numbered
-2. List
+Generates a histogram oh albums saved by year with the individual album arts as data points. It looks
+like [this](https://i.ibb.co/stg0w7D/library.png) (click for full size/coloring). Uses Matplotlib, Spotipy, and
+Retrying (for the Spotify API).
 
-**Bold** and _Italic_ and `Code` text
+# Work Experience
 
-[Link](url) and ![Image](src)
-```
+## Forward Financing (Boston, MA)
+### Software Engineer Co-op, January – June 2019
+* Lead the implementation of a bank statement OCR service (Ocrolus) into our internal underwriting app, helped to speed up deal completion time
+* Developed a tool in Ruby to spin up a complete development sandbox environment which was used to train dea pre-qualification analysts
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alevine/alevine.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## OM1 (Boston, MA)
+### Software Engineering Co-op, January – June 2019
+* Created new Python DAGs and improved upon existing ones in Apache Airflow for the main product’s pipeline which ran using AWS EMR and Apache Spark
+* Contributed to developing new disease outcome measurements using Scala and patient records in a SnowSQL database
